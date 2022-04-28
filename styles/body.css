@@ -1,0 +1,66 @@
+#bonus-note{
+    display: flex;
+    width: 96.2%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+#bonus-note-middle-section{
+    background-color: #f6f6f6;
+    width: 700px;
+    height: 142px;
+    margin-top: 2px;
+    padding-top: 30px;
+    padding-left: 20px;
+    line-height: 8px;
+}
+#main-heading{
+    font-size: 21px;
+    font-weight: 600;
+}
+#paragraph{
+    font-weight: 400;
+}
+#inside-link > a{
+    font-weight: 400;
+    color: black;
+    text-underline-offset: 3px;
+}
+#inside-link >a:hover{
+    text-decoration-thickness: 2px;
+}
+#bonus-note > div:last-child{
+    margin-top: 1px;
+}
+#large-image-text{
+    display: flex;
+    width: 96%;
+    margin: auto;
+    gap: 15px;
+}
+#large-image-text > div:last-child{
+    padding-top: 150px;
+    line-height: 32px;
+    cursor: pointer;
+}
+#large-image-text > div:last-child > div:last-child{
+    display: flex;
+    gap: 20px;
+}
+#large-image-text > div:last-child > div:nth-child(2){
+    font-size: 14px;
+}
+
+#large-image-text > div:last-child > div:last-child > div > a{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    text-underline-offset: 3px;    
+}
+#large-image-text > div:last-child > div:last-child > div > a:hover{
+    text-decoration-thickness: 2px;
+}    
+#large-image-text > div:last-child > div:first-child{
+    font-size: 27px;
+    font-weight: 600;
+}
